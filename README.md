@@ -1,7 +1,7 @@
 # Intro
-This is made for build a docker image to wrapper jmeter.
-Because another jmeter image need to use `docker exec` or `docker run`. But I need to build jmeter into image.
-So I made this image to wrapper jmeter enviornment.
+This is made for build a docker image to wrapper jmeter.  
+Because another jmeter image need to use `docker exec` or `docker run`. But I need to build jmeter into image.  
+So I made this image to wrapper jmeter enviornment.  
 
 # Usage
     FROM rukeith/jmeter
