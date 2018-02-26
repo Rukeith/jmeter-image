@@ -1,7 +1,7 @@
 FROM centos
 USER root
 RUN yum install -y epel-release && \
-    yum install -y git curl git jq wget && \
+    yum install -y jq wget && \
     yum groupinstall 'Development Tools' -y
 
 RUN cd /opt/ && \
